@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Language" content="en" />
+        <meta name="msapplication-TileColor" content="#2d89ef">
+        <meta name="theme-color" content="#4188c9">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon"/>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.png" />
+        <!-- Generated: 2018-04-16 09:29:05 +0200 -->
+        <title>Djuliar Profil Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
+        <script src="./assets/js/require.min.js"></script>
+        <script>
+            requirejs.config({
+                    baseUrl: '.'
+            });
+        </script>
+        <!-- Dashboard Core -->
+        <link href="./assets/css/dashboard.css" rel="stylesheet" />
+        <script src="./assets/js/dashboard.js"></script>
+        <style type="text/css">
+        	.card-profile-img { max-width: 12rem; margin-top: -8rem; }
+        	.card-cover { height: 20rem; background-image: url('./assets/images/cover.jpg'); background-size: cover; background-position: center top;  }
+        	.timeline-badge { width: 1rem; height: 1rem; left: -0.2rem; top: 0.1rem;}
+        </style>
+    </head>
+    <body class="">
+        <div class="page">
+            <div class="page-main">
+                <div class="header py-4">
+                    <div class="container">
+                        <div class="d-flex">
+                            <a class="header-brand" href="./index.html">
+                                <img src="./assets/images/logo.png" class="header-brand-img" alt="tabler logo">
+                            </a>
+                            <div class="d-flex order-lg-2 ml-auto">
+                                <div class="dropdown">
+                                    <a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
+                                        <span class="avatar" style="background-image: url(./assets/images/favicon.png)"></span>
+                                        <span class="ml-2 d-none d-lg-block">
+                                            <span class="text-default">Djuliar</span>
+                                            <small class="text-muted d-block mt-1">Manusia Biasa</small>
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                        <a class="dropdown-item" href="#">
+                                            <i class="dropdown-icon fe fe-user"></i> Profile
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="dropdown-icon fe fe-log-out"></i> Sign out
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="mt-3 mt-md-5">
+                	<div class="container">
+	                	<div class="card">
+							<div class="card-header card-cover"></div>
+							<div class="card-body">
+								<div class="row">
+									<div class="col-sm-12 col-lg-3 text-center">
+										<img class="card-profile-img" src="./assets/images/favicon.png">
+									</div>
+									<div class="col-sm-12 col-lg-9">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="h1">David Juli Ariyadi <span class="small">(Djuliar)</span></div>
+											</div>
+											<div class="col-md-7 text-right">
+												<ul class="social-links list-inline mb-0 mt-2 ml-auto">
+													<li class="list-inline-item">
+														<a href="https://www.facebook.com/juli.ariyadi" target="_blank" data-toggle="tooltip" data-original-title="Facebook" class="bg-blue text-white"><i class="fa fa-facebook"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://www.twitter.com/djuliar" target="_blank" data-toggle="tooltip" data-original-title="Twitter" class="bg-azure text-white"><i class="fa fa-twitter"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://www.instagram.com/djuliar" target="_blank" data-toggle="tooltip" data-original-title="@djuliar" class="bg-pink text-white"><i class="fa fa-instagram"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://api.whatsapp.com/send?phone=085258605369" title="" data-toggle="tooltip" data-original-title="Whatsapp" class="bg-green-dark text-white"><i class="fa fa-whatsapp"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://www.youtube.com/channel/UCJDsQ1yatPx7L19Ww3oyhJg" target="_blank" data-toggle="tooltip" data-original-title="Youtube" class="bg-red-dark text-white"><i class="fa fa-youtube"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://id.pinterest.com/djuliar_/" target="_blank" data-toggle="tooltip" data-original-title="Pinterest" class="bg-red text-white"><i class="fa fa-pinterest"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://tumblr.com/djuliar/" target="_blank" data-toggle="tooltip" data-original-title="Tumblr" class="bg-blue-darkest text-white"><i class="fa fa-tumblr"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://www.github.com/djuliar" target="_blank" data-toggle="tooltip" data-original-title="Github" class="bg-gray-darkest text-white"><i class="fa fa-github"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://www.gitlab.com/djuliar" target="_blank" data-toggle="tooltip" data-original-title="Gitlab" class="bg-orange text-white"><i class="fa fa-gitlab"></i></a>
+													</li>
+													<li class="list-inline-item">
+														<a href="https://www.deviantart.com/djuliar" target="_blank" data-toggle="tooltip" data-original-title="Deviantart" class="bg-lime-dark text-white"><i class="fa fa-deviantart"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="card">
+										    <div class="card-header">
+										    	<h3 class="card-title">About Me</h3>
+										    </div>
+										    <div class="card-body">
+										        <div class="row">
+										            <div class="col-6">
+										                <div class="h6"><i class="fa fa-birthday-cake"></i> Age</div>
+										                <p><?= date('Y') - 1990  ?></p>
+										            </div>
+										            <div class="col-6">
+										                <div class="h6"><i class="fa fa-venus-mars"></i> Relationship</div>
+										                <p>Married</p>
+										            </div>
+										            <div class="col-6">
+										                <div class="h6"><i class="fa fa-home"></i> Address</div>
+										                <p>Grand Kaliurang F2 Antirogo Sumbersari Jember</p>
+										            </div>
+										            <div class="col-6">
+										                <div class="h6"><i class="fa fa-phone"></i> Phone</div>
+										                <p>+6285258605369</p>
+										            </div>
+										        </div>
+										        <div class="h6"><i class="fa fa-quote-right"></i> Quotes</div>
+										        <p>I'm not perfect, But I can make live perfection.</p>
+										    </div>
+										</div>
+										<div class="card">
+										    <div class="card-header">
+										    	<h3 class="card-title">Skill</h3>
+										    </div>
+										    <div class="card-body">
+										        <div class="row">
+										        	<div class="col-6 h6">PHP</div>
+										        	<div class="col-6">
+										        		<div class="clearfix">
+															<div class="float-right"><strong>75%</strong></div>
+														</div>
+										        		<div class="progress progress-xs">
+							                              	<div class="progress-bar bg-blue" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+							                            </div>
+										        	</div>
+										        	<div class="col-6 h6">Codeigniter</div>
+										        	<div class="col-6">
+										        		<div class="clearfix">
+															<div class="float-right"><strong>75%</strong></div>
+														</div>
+										        		<div class="progress progress-xs">
+							                              	<div class="progress-bar bg-orange" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+							                            </div>
+										        	</div>
+										        	<div class="col-6 h6">Corel Draw</div>
+										        	<div class="col-6">
+										        		<div class="clearfix">
+															<div class="float-right"><strong>65%</strong></div>
+														</div>
+										        		<div class="progress progress-xs">
+							                              	<div class="progress-bar bg-green" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+							                            </div>
+										        	</div>
+										        	<div class="col-6 h6">Photosop</div>
+										        	<div class="col-6">
+										        		<div class="clearfix">
+															<div class="float-right"><strong>50%</strong></div>
+														</div>
+										        		<div class="progress progress-xs">
+							                              	<div class="progress-bar bg-blue" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+							                            </div>
+										        	</div>
+										        	<div class="col-6 h6">Microsoft Office</div>
+										        	<div class="col-6">
+										        		<div class="clearfix">
+															<div class="float-right"><strong>80%</strong></div>
+														</div>
+										        		<div class="progress progress-xs">
+							                              	<div class="progress-bar bg-red" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+							                            </div>
+										        	</div>
+												</div>
+										    </div>
+										</div>
+									</div>
+								    <div class="col-sm-12 col-lg-8">
+								        <div class="card">
+								            <div class="card-header">
+								                <h3 class="card-title">Timeline of Education</h3>
+								            </div>
+								            <div class="card-body">
+								                <ul class="timeline">
+								                    <li class="timeline-item">
+								                        <div class="timeline-badge bg-red"></div>
+								                        <div class="h5">SD Negeri 1 Wringin Anom Asembagus</div>
+								                        <div class="timeline-time h6">1997</div>
+								                    </li>
+								                    <li class="timeline-item">
+								                        <div class="timeline-badge bg-blue"></div>
+								                        <div class="h5">SMP Negeri 2 Asembagus</div>
+								                        <div class="timeline-time h6">2002</div>
+								                    </li>
+								                    <li class="timeline-item">
+								                        <div class="timeline-badge bg-gray"></div>
+								                        <div class="h5">SMA Negeri 1 Asembagus</div>
+								                        <div class="timeline-time h6">2005</div>
+								                    </li>
+								                    <li class="timeline-item">
+								                        <div class="timeline-badge bg-azure"></div>
+								                        <div class="h5">Politeknik Negeri Jember</div>
+								                        <div class="timeline-time h6">2008</div>
+								                    </li>
+								                    <li class="timeline-item">
+								                        <div class="timeline-badge bg-blue-dark"></div>
+								                        <div class="h5">Institut Teknologi Nasional Malang</div>
+								                        <div class="timeline-time h6">2012</div>
+								                    </li>
+								                </ul>
+								            </div>
+								        </div>
+								        <div class="card">
+								            <div class="card-header">
+								                <h3 class="card-title">History of Work</h3>
+								            </div>
+								            <div class="card-body">
+								                <ul class="timeline">
+								                    <li class="timeline-item">
+								                        <div class="timeline-badge bg-green"></div>
+								                        <div class="h5">Administrator Database Kecamatan Asembagus dalam Proyek E-KTP</div>
+								                        <div class="timeline-time h6">2012</div>
+								                    </li>
+								                    <li class="timeline-item">
+								                        <div class="timeline-badge bg-green"></div>
+								                        <div class="h5">Productive Teacher of SMK Khamas Asembagus</div>
+								                        <div class="timeline-time h6">2014 - 2016</div>
+								                    </li><li class="timeline-item">
+								                        <div class="timeline-badge bg-green"></div>
+								                        <div class="h5">Laboratorium Technician of Information Technology Department, Politeknik Negeri Jember</div>
+								                        <div class="timeline-time h6">2016 - Now</div>
+								                    </li>
+								                </ul>
+								            </div>
+								        </div>
+								    </div>
+								</div>
+							</div>
+						</div>
+                	</div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="col-auto ml-lg-auto">
+                            <div class="row align-items-center">
+                                <div class="col-auto">
+                                    <ul class="list-inline list-inline-dots mb-0">
+                                        <li class="list-inline-item"><a href="./docs/index.html">Documentation</a></li>
+                                        <li class="list-inline-item"><a href="./faq.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+                            Copyright © 2018 <a href=".">Tabler</a>. Theme by <a href="https://codecalm.net" target="_blank">codecalm.net</a> All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
